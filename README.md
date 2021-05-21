@@ -47,34 +47,38 @@ CONTAINER_NAME=react-container
 $ make init
 ```
 
-成功すると下記表示 ↓ (成功しなかったら井阪まで)
+成功すると下記表示 ↓ 
 
 ```shell script
 ...
 ...
-yarn run v1.22.4
-$ eslint --ext .js,.vue --ignore-path .gitignore . --fix
-Done in 24.57s.
+Success! Created react-project at /work/app/react-project
+Inside that directory, you can run several commands:
 
-🎉  Successfully created project my_project
+  yarn start
+    Starts the development server.
 
-  To get started:
+  yarn build
+    Bundles the app into static files for production.
 
-	cd my_project
-	yarn dev
+  yarn test
+    Starts the test runner.
 
-  To build & start for production:
+  yarn eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
 
-	cd my_project
-	yarn build
-	yarn start
+We suggest that you begin by typing:
 
-  To test:
+  cd react-project
+  yarn start
 
-	cd my_project
-	yarn test
-$
+Happy hacking!
+...
+...
 ```
+
+成功しなかったら井阪まで...
 
 ## Github プロジェクト作成 (app/{project-name}と同じ名前にするべし)
 
@@ -124,10 +128,10 @@ make init
 make up
 ```
 
-## Docker コンテナに入る & yarn install & yarn dev
+## Docker コンテナ入る & yarn install & yarn dev
 
 ```shell script
-make in
+make start
 ```
 
 ## Docker コンテナ停止
@@ -146,6 +150,12 @@ make ps
 
 ```shell script
 make logs
+```
+
+## Docker コンテナ入る
+
+```shell script
+make in
 ```
 
 ## Docker コンテナ削除
