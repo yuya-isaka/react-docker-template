@@ -80,7 +80,7 @@ Happy hacking!
 
 成功しなかったら井阪まで...
 
-## 7. app/{project-name}/package.json のnameを変更 (app/{project-name}と同じ名前にするべし）
+## 7. app/{project-name}/package.jsonのnameを変更 (app/{project-name}と同じ名前）
 
 ## 8. Github プロジェクト作成 (app/{project-name}と同じ名前にするべし)
 
