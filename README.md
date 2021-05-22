@@ -41,7 +41,7 @@ PROJECT_NAME=react-project
 CONTAINER_NAME=react-container
 ```
 
-## 5. Docker イメージ，コンテナ & React プロジェクト作成
+## 6. Docker イメージ，コンテナ & React プロジェクト作成
 
 ```shell script
 $ make init
@@ -80,7 +80,9 @@ Happy hacking!
 
 成功しなかったら井阪まで...
 
-## Github プロジェクト作成 (app/{project-name}と同じ名前にするべし)
+## 7. app/{project-name}/package.json のnameを変更 (app/{project-name}と同じ名前にするべし）
+
+## 8. Github プロジェクト作成 (app/{project-name}と同じ名前にするべし)
 
 ```
 $ cd app/{project-name}
