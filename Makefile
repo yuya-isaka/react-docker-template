@@ -1,8 +1,8 @@
 init:
 	docker-compose up -d --build
 	docker-compose exec dev bash -c 'yarn global add create-react-app && create-react-app $$PROJECT_NAME'
-	cd app && git clone https://github.com/yuya-isaka/template-react-app.git
-	docker-compose exec dev bash -c 'rm -rf $$PROJECT_NAME && mv template-react-app $$PROJECT_NAME && cd $$PROJECT_NAME && rm -rf .git'
+	# cd app && git clone https://github.com/yuya-isaka/template-react-app.git
+	# docker-compose exec dev bash -c 'rm -rf $$PROJECT_NAME && mv template-react-app $$PROJECT_NAME && cd $$PROJECT_NAME && rm -rf .git'
 
 up:
 	docker-compose up -d
